@@ -1,0 +1,18 @@
+This source code is Copyright (c) 2018 Gallagher Group Ltd and made available under the MIT license.
+
+It is designed to provide a convenient option on iOS to mimic Android's Toast 
+functionality, which is often useful for displaying transient informational messages.
+
+As of March 2018 this code compiles as Swift 4 under Xcode 9.2, and supports iOS applications
+targeting back to iOS 8.
+
+Note: It is the intention of the author that you copy/paste or otherwise link this source file
+in with your iOS application. As such, the classes and enums it uses are not marked as public.
+
+usage:
+
+    toast("a toast messsage appeared!")
+
+advanced usage:
+
+    toast("a toast message appeared!", size: .large, duration: .long)
