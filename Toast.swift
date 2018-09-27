@@ -56,18 +56,18 @@ extension UIView {
         
         switch size {
         case .small:
-            lbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.body)
+            lbl.font = UIFont.preferredFont(forTextStyle: .body)
         case .normal:
             if #available(iOS 9.0, *) {
-                lbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.title2)
+                lbl.font = UIFont.preferredFont(forTextStyle: .title2)
             } else {
-                lbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+                lbl.font = UIFont.preferredFont(forTextStyle: .headline)
             }
         case .large:
             if #available(iOS 9.0, *) {
-                lbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.title1)
+                lbl.font = UIFont.preferredFont(forTextStyle: .title1)
             } else {
-                lbl.font = UIFont.preferredFont(forTextStyle: UIFontTextStyle.headline)
+                lbl.font = UIFont.preferredFont(forTextStyle: .headline)
             }
         }
         

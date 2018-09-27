@@ -3,7 +3,7 @@ This source code is Copyright (c) 2018 Gallagher Group Ltd and made available un
 It is designed to provide a convenient option on iOS to mimic Android's Toast 
 functionality, which is often useful for displaying transient informational messages.
 
-As of March 2018 this code compiles as Swift 4 under Xcode 9.2, and supports iOS applications
+As of September 2018 this code compiles as Swift 4.2 under Xcode 10.0, and supports iOS applications
 targeting back to iOS 8.
 
 Note: It is the intention of the author that you copy/paste or otherwise link this source file
